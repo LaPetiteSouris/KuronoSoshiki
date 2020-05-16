@@ -58,4 +58,5 @@ async def perform_quality_check(data):
 @app.agent(quality_topic)
 async def gate_keeper(data):
     async for d in data:
+        print("data quality enforced on message...")
         print(d)
