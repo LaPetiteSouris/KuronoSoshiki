@@ -6,4 +6,4 @@ ADD ./requirements.txt ./
 RUN pip install -r requirements.txt
 ADD ./ ./
 
-CMD ["python3", "app.py"]
+CMD ["faust", "-A", "vodka", "worker", "-l", "info"]
