@@ -68,7 +68,7 @@ Topics:
 - `derivedstream.cleaned_user_events`: user event cleaned by `vodka`
 - `derivedstream.quality_user_activity`: quality control , publish by `bourbon`
 
-Example transaction message:
+Example message:
 
 ```json
 {"id":1,"first_name":"Barthel","last_name":"Kittel","email":"bkittel0@printfriendly.com","gender":"Male","ip_address":"130.187.82.195","date":"06/05/2018","country":"france"}
