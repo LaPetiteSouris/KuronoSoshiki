@@ -16,7 +16,13 @@ services:
       KAFKA_BROKER_URL: broker:9092
       USER_TOPIC: streaming.user_activity
       CLEANED_USER_TOPIC: derivedstream.cleaned_user_events
-      CONSUMER_AUTO_OFFSET_RESET: 'latest'
+
+  bourbon:
+    build: ./bourbon
+    environment:
+      KAFKA_BROKER_URL: broker:9092
+      USER_TOPIC: streaming.user_activity
+      DATAQUALITY_TOPIC: derivedstream.quality_user_activity
 
 networks:
   default:
