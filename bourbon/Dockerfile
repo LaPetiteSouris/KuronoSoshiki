@@ -6,4 +6,4 @@ ADD ./requirements.txt ./
 RUN pip install -r requirements.txt
 ADD ./ ./
 
-CMD ["faust", "-A", "vodka", "worker", "-l", "info"]
+CMD ["faust", "-A", "bourbon", "worker", "-l", "info"]
