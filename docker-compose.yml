@@ -7,7 +7,7 @@ services:
     environment:
       KAFKA_BROKER_URL: broker:9092
       USER_TOPIC: streaming.user_activity
-      TRANSACTIONS_PER_SECOND: 1000
+      TRANSACTIONS_PER_SECOND: 0.2
 
 
   vodka:
@@ -16,7 +16,6 @@ services:
       KAFKA_BROKER_URL: broker:9092
       USER_TOPIC: streaming.user_activity
       CLEANED_USER_TOPIC: derivedstream.cleaned_user_events
-      TRANSACTIONS_PER_SECOND: 1000
       CONSUMER_AUTO_OFFSET_RESET: 'latest'
 
 networks:

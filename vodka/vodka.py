@@ -44,6 +44,15 @@ async def log_derived_data(data):
         # count country
         country = d["country"]
         counts[country] += 1
+
         print(f'{country} has now appeared {counts[country].value()} times')
+
+        # count email address
+        email = d["email"]
+        counts[email] += 1
+        if counts[email].value() >= 5:
+            print(
+                f'{email} has now appeared multiple times'
+            )
         # log derived data
         print("derived data: ", d)
