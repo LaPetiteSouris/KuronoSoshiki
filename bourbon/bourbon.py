@@ -1,4 +1,3 @@
-"""Example Kafka consumer."""
 import os
 import faust
 from datetime import timedelta
