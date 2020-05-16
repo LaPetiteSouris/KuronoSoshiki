@@ -15,6 +15,7 @@ services:
     environment:
       KAFKA_BROKER_URL: broker:9092
       USER_TOPIC: streaming.user_activity
+      CLEANED_USER_TOPIC: derived.cleaned_user_activity
       TRANSACTIONS_PER_SECOND: 1000
       CONSUMER_AUTO_OFFSET_RESET: 'latest'
 
