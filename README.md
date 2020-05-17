@@ -4,7 +4,7 @@
 [![Docker Images](https://img.shields.io/badge/docker_images-confluent-orange.svg?style=flat-square)](https://github.com/confluentinc/cp-docker-images)
 [![Python](https://img.shields.io/badge/python-3.5+-blue.svg?style=flat-square)](https://www.python.org)
 
-This is the implementation of my small blogpost: [A simple Data Quality Control for Streaming Service]().
+This is the implementation of my small blogpost: [A simple Data Quality Control for Streaming Service](https://medium.com/@tunghoang/to-stream-or-to-not-stream-that-is-a-question-92cf0adbfe65).
 
 Inspired by the article written here
 [Building A Streaming Fraud Detection System With Kafka And Python](https://florimond.dev/blog/articles/2018/09/building-a-streaming-fraud-detection-system-with-kafka-and-python/)
